@@ -1,0 +1,182 @@
+body {
+  background-color: #c93838 !important;
+}
+
+
+hr {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thick !important;
+  border-color: #FFF !important;
+}
+
+
+
+/* Company Name */
+
+.heading {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+
+
+/* number-details */
+
+.number-details {
+  color: #FFF;
+  margin-left: 5%;
+}
+
+.number-no {
+  font-size: 2rem;
+  font-weight: 700;
+  opacity: 0.2;
+}
+
+.no-details {
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.2;
+}
+
+.hr-1 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thin !important;
+  border-color: #FFF !important;
+  opacity: 0.2;
+}
+
+
+
+.number-no-2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.no-details-2 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.hr-2 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thick !important;
+  border-color: #FFF !important;
+}
+
+.number-no-3 {
+  font-size: 2rem;
+  font-weight: 700;
+  opacity: 0.2;
+}
+
+.no-details-3 {
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.2;
+}
+
+.hr-3 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thin !important;
+  border-color: #FFF !important;
+  opacity: 0.2;
+}
+
+
+
+.heading-2 {
+  color: #FFF;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  width: 12%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+/* Form */
+
+.Guest-heading {
+  margin-left: 5%;
+  color: #FFF;
+  font-size: 1.3rem;
+}
+
+.guest-no {
+  margin-left: 5%;
+  color: #FFF;
+}
+
+.guest-main {
+  font-size: 1.2rem;
+}
+
+.guest-heading-2 {
+  margin-top: 3%;
+  margin-left: 5%;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+.form-main {
+  font-size: 1.3rem;
+  margin-left: 5%;
+  margin-top: 1%;
+  color: #FFF;
+}
+
+.form-details {
+  margin-left: 5%;
+}
+
+::placeholder {
+  font-size: 18px !important;
+}
+
+.continue-btn {
+ margin-top: 5%;
+ margin-left: 40%;
+ width: 20%;
+ margin-bottom: 5%;
+}
+
+.classes {
+  margin-left: 5%;
+  color: #FFF;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #c93838;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 6%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 20px 34px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,142 @@
+body {
+  background-color: #c93838 !important;
+}
+
+
+.hr-1 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thin !important;
+  border-color: #FFF !important;
+  opacity: 0.2;
+}
+
+
+
+/* Company Name */
+
+.heading {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+.tour-name {
+  font-family: "Ubuntu";
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+
+
+/* number-details */
+
+.number-details {
+  color: #FFF;
+  margin-left: 5%;
+}
+
+.number-no {
+  font-size: 2rem;
+  font-weight: 700;
+  opacity: 0.2;
+}
+
+.no-details {
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.2;
+}
+
+.number-no-2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.no-details-2 {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.hr-2 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thick !important;
+  border-color: #FFF !important;
+}
+
+.heading-2 {
+  color: #FFF;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  width: 12%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.continue-btn {
+ margin-top: 2%;
+ margin-left: 40%;
+ width: 20%;
+ margin-bottom: 5%;
+}
+
+
+.book-now-heading {
+  font-size: 2rem;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 3%;
+  margin-left: 5%;
+}
+
+.book-now-date {
+ font-size: 1rem;
+ color: #FFF;
+ margin-left: 5%;
+}
+
+.book-now-main {
+ font-size: 1rem;
+ color: #FFF;
+ font-weight: lighter;
+ margin-left: 5%;
+}
+
+.book-now-main-price {
+ font-size: 1.5rem;
+ color: #FFF;
+ font-weight: bold;
+ margin-left: 5%;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #c93838;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 6%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 20px 34px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

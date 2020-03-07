@@ -1,0 +1,119 @@
+body {
+  background-color: #c93838 !important;
+}
+
+
+hr {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thick !important;
+  border-color: #FFF !important;
+}
+
+
+
+/* Company Name */
+
+.heading {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+
+/* bus Bar */
+
+.bus-bar {
+  color: white;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.bus-bar-item {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: 32%;
+}
+
+.bus-main {
+ color: white;
+}
+
+.bus-main-item {
+  font-size: 1.4rem;
+  font-weight: lighter;
+  margin-left: 34%;
+  margin-bottom: 30%;
+}
+/* number-details */
+
+.number-details {
+  color: #FFF;
+  margin-left: 5%;
+}
+
+.number-no {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.no-details {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.number-no-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  opacity: 0.2;
+}
+
+.no-details-2 {
+  font-size: 1rem;
+  font-weight: 100;
+  opacity: 0.2;
+}
+
+.hr-2 {
+  width: 100%;
+  border-style: solid none none none !important;
+  border-width: thin !important;
+  border-color: #FFF !important;
+  opacity: 0.2;
+}
+
+.heading-2 {
+  color: #FFF;
+  margin-left: 5%;
+  font-size: 1.5rem;
+  width: 14%;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #c93838;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 6%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 20px 34px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

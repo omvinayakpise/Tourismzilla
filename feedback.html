@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>FeedBack Form</title>
+    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="stylesheet" href="css/feedback.css">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 leftcol">
+          <img class="feedback-img" src="https://i.etsystatic.com/15433923/r/il/1c4c71/1255933478/il_570xN.1255933478_3v9f.jpg" alt="feedback-photo">
+          <h1>Tourismzilla Feedback Form</h1>
+          <h5><em>We would love your <span>Precious Feedback</span></em></h5>
+          <br />
+        </div>
+        <div class="<col-lg-6 rightcol>">
+          <form class="feedback-form" action="feedback-process.php" method="post">
+            <br>
+            <br>
+            <br>
+            <label>Did we meet your expectations?</label>
+            <br>
+            <input type="text" class="form-control-lg feedback-text" name="ques1" placeholder="Your Answer" required>
+            <br>
+            <br>
+            <label>What would have made your experience with us better?</label>
+            <input type="text" class="form-control-lg feedback-text" name="ques2" placeholder="Your Answer" required>
+            <br>
+            <br>
+            <label>Did you feel comfortable booking with us?</label>
+            <br>
+            <input type="text" class="form-control-lg feedback-text" name="ques3" placeholder="Your Answer" required>
+            <br>
+            <br>
+            <label>Is there anything else you would like us to know about your experience?</label>
+            <br>
+            <input type="text" class="form-control-lg feedback-text" name="ques4" placeholder="Your Answer" required>
+            <br>
+            <br>
+            <label>How will you rate the website?</label>
+            <br>
+            <input type="text" class="form-control-lg feedback-text" name="ques5" placeholder="Your Answer" required>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button type="submit" class="btn btn-secondary btn-lg btn-block" name="feedback">Thank You</button>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

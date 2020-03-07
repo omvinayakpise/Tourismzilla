@@ -1,0 +1,284 @@
+
+.bali-img-1 {
+  width: 101%;
+  height: 800px;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  position: relative;
+  color: #FFF;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem !important;
+  position: absolute;
+  bottom: 700px;
+  margin-left: 100px;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem !important;
+  font-weight: bold;
+  color: #FFF !important;
+  position: absolute;
+}
+
+
+
+
+/* left-side text */
+.left-side-text {
+  position: absolute;
+  bottom: 4950px;
+  left: 100px;
+  font-family: "Merriweather";
+  font-size: 2rem;
+  line-height: 2;
+}
+
+.main-text {
+  font-family: "Merriweather";
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+
+/* intro text and highlights */
+#text-highlights {
+  background-color: #FFF;
+  font-family: "Merriweather";
+}
+
+.intro-text {
+  color: black;
+  margin-left: 30%;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.bali-intro-img {
+  margin-left: 30%;
+  width: 40%;
+}
+
+.tour-highlights {
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+  margin-left: 30%;
+  font-weight: bolder;
+}
+
+.tour-mains {
+  font-size: 0.9rem;
+  font-weight: lighter !important;
+  color: black;
+  margin-left: 30%;
+  line-height: 2;
+}
+
+
+
+
+/* itenary */
+
+.itenary-heading {
+  margin-top: 3%;
+  font-size: 2rem;
+  margin-left: 30%;
+  color: black;
+  margin-bottom: 2%;
+}
+
+.itenary-day {
+  font-weight: light;
+  font-size: 0.9rem;
+  color: black;
+  margin-left: 30%;
+}
+
+.itenary-dest {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.itenary-desc {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 80%;
+  color: black;
+  margin-left: 30%;
+}
+
+.itenary-day-1 {
+  font-weight: light;
+  font-size: 0.9rem;
+  color: black;
+  margin-left: 30%;
+}
+
+.itenary-dest-1 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 30%;
+  margin-top: 2%;
+}
+
+.itenary-desc-1 {
+  font-size: 1rem;
+  font-weight: lighter;
+  width: 80%;
+  color: black;
+  margin-left: 30%;
+}
+
+
+
+/* photos-section */
+
+.photos-section-title {
+ font-size: 2rem;
+ font-weight: 300;
+ color: black;
+ margin-left: 15%;
+ margin-top: 3%;
+}
+
+.photos-section-img {
+  width: 50%;
+  margin-left: 30%;
+  margin-top: 2%;
+  height: 90%;
+}
+
+.photos-section-heading {
+  font-size: 1.7rem;
+  margin-top: 5%;
+  line-height: 2;
+  color: black;
+}
+
+.photos-section-mains {
+  font-size: 1rem;
+  color: black;
+  line-height: 2;
+}
+
+
+/* Photos Heading */
+
+.carousel {
+  width: 1100px;
+  align-items: center;
+ margin-left: 15%;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: "Merriweather" !important;
+}
+
+.photos-heading {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  margin-top: 3%;
+}
+
+
+/* tour-information */
+
+.tour-information-title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 15%;
+  color: black;
+}
+
+.tour-information-heading {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: black;
+  margin-left: 31%;
+  margin-top: 3%;
+}
+
+.tour-information-mains {
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-left: 31%;
+  color: black;
+}
+
+
+/* Book-Now-Section */
+
+.heart-img {
+  width: 40%;
+  margin-top: 15%;
+  margin-left: 40%;
+}
+
+
+.book-now-heading {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  margin-top: 22%;
+}
+
+.book-now-date {
+ font-size: 1rem;
+ color: black;
+
+}
+
+.book-now-main {
+ font-size: 1rem;
+ color: black;
+ font-weight: lighter;
+
+}
+
+.book-now-main-price {
+ font-size: 1.5rem;
+ color: black;
+ font-weight: bold;
+}
+
+hr {
+  width: 100%;
+}
+
+.book-now-btn {
+  margin-bottom: 10%;
+  margin-left: 40%;
+}
+
+/* Footer */
+#footer {
+  background-color: #c93838;
+  padding: 6% 14%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 10px 20px 34px;
+  color: white;
+}
+
+.footer-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

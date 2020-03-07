@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Visit Bali</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images\favicon.ico">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="css/bali1.css">
+
+    <!-- Font Awesome used to take icons from that site -->
+    <script src="https://kit.fontawesome.com/dba538dfae.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <h1 class="heading">Tourismzilla</h1>
+
+    <h2 class="tour-name">Visit Bali</h2>
+
+    <div class="row">
+      <div class="number-details col-lg-2 md-2">
+        <h3 class="number-no">01</h3>
+        <h5 class="no-details">Guests Details</h5>
+        <hr>
+      </div>
+
+      <div class="number-details col-lg-2 md-2">
+        <h3 class="number-no-2">02</h3>
+        <h5 class="no-details-2">Check-Out</h5>
+        <hr class="hr-2">
+      </div>
+    </div>
+
+    <h5 class="heading-2">Make room for Good Things</h5>
+
+    <form class="" action="bali-process.php" method="post">
+      <h5 class="Guest-heading">Number of Guests</h5>
+      <div class="row">
+        <div class="guest-no col-lg-2 md-2">
+          <label class="guest-main">Adults</label>
+          <br>
+          <select class="form-control-sm" name="adults">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+          <br>
+          <small>Above 12yrs</small>
+        </div>
+
+      <div class="guest-no col-lg-2 md-2">
+        <label class="guest-main">Child</label>
+        <br>
+        <select class="form-control-sm" name="child">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <br>
+        <small>Age 2-11 yrs</small>
+      </div>
+
+      <div class="guest-no col-lg-2 md-2">
+        <label class="guest-main">Infants</label>
+        <br>
+        <select class="form-control-sm" name="infants">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+        <br>
+        <small>Age 0-02 yrs</small>
+      </div>
+
+      <div class="guest-no col-lg-2 md-2">
+        <label class="guest-main">Room Selection</label>
+        <br>
+        <select class="form-control-sm" name="room_selection">
+          <option value="Normal">Normal</option>
+          <option value="Deluxe">Deluxe</option>
+          <option value="Super Deluxe">Super Deluxe</option>
+        </select>
+      </div>
+  </div>
+
+
+      <h4 class="guest-heading-2">A Little About You</h4>
+      <br>
+      <label class="form-main">First Name</label>
+      <br>
+      <input type="text" class="form-details form-control-lg" name="first_name" placeholder="Enter your First Name" required>
+      <br>
+
+      <label class="form-main">Last Name</label>
+      <br>
+      <input type="text" class="form-details form-control-lg" name="last_name" placeholder="Enter your Last Name" required>
+      <br>
+
+      <label class="form-main">Gender</label>
+      <br>
+      <select class="form-details form-control-sm" name="gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br>
+
+      <label class="form-main">Mobile Number</label>
+      <br>
+      <input type="tel" class="form-details form-control-lg" name="mobile_no" placeholder="Enter your Mobile No." required>
+      <br>
+
+      <label class="form-main">Email ID</label>
+      <br>
+      <input type="email" class="form-details form-control-lg" name="email_id" placeholder="Enter your Email ID" required>
+      <br>
+
+      <label class="form-main">Date of Birth</label>
+      <br>
+      <input type="date" class="form-details form-control-lg" name="date_of_birth" required>
+      <br>
+
+      <label class="form-main">Passport Number</label>
+      <br>
+      <input type="tel" class="form-details form-control-lg" name="passport_no" placeholder="Enter your Passport No" required>
+      <br>
+      <br>
+
+      <a href="bali2.html"><button type="submit" class="continue-btn btn btn-lg btn-outline-light" name="continue">Continue</button></a>
+    </form>
+
+
+
+              <footer id="footer">
+                   <i class="social-icon fab fa-twitter fa-2x"></i>
+                   <i class="social-icon fab fa-instagram fa-2x"></i>
+                   <i class="social-icon fab fa-facebook-f fa-2x"></i>
+                   <i class="social-icon fab fa-youtube fa-2x"></i>
+
+                <p class="footer-text">© Copyright 2019 Tourismzilla</p>
+
+              </footer>
+
+
+  </body>
+</html>

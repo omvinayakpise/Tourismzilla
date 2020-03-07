@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Register Page</title>
+    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="stylesheet" href="css/register.css">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+
+
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 leftcol">
+          <img class="register-img" src="https://i.etsystatic.com/15433923/r/il/1c4c71/1255933478/il_570xN.1255933478_3v9f.jpg" alt="register-photo">
+          <h1>Tourismzilla Register Page</h1>
+          <h5><em>You are just one click from your <span>Dream Destination</span></em></h5>
+          <br />
+        </div>
+        <div class="<col-lg-6 rightcol>">
+          <form class="register-form" action="register-process.php" method="post">
+            <label>First Name</label>
+            <input type="text" class="form-control-lg register-text" name="first_name" placeholder="Enter your First Name" required>
+            <br>
+            <br>
+            <label>Last Name</label>
+            <input type="text" class="form-control-lg register-text" name="last_name" placeholder="Enter your Last Name" required>
+            <br>
+            <br>
+            <label>Gender</label>
+            <br>
+            <input type="radio"  name="gender" value="male">Male <br> <br>
+            <input type="radio"  name="gender" value="female">Female
+            <br>
+            <br>
+            <label>Email ID</label>
+            <br>
+            <input type="email" class="form-control-lg register-text" name="email_id" placeholder="Enter your Name" required>
+            <br>
+            <br>
+            <label>Address</label>
+            <br>
+            <input type="text" class="form-control-lg register-text" name="address" placeholder="Enter your Name" required>
+            <br>
+            <br>
+            <label>Contact Number</label>
+            <input type="tel" class="form-control-lg register-text" name="contact_number" placeholder="Enter your Name" required>
+            <br>
+            <br>
+            <label>Date of Birth</label>
+            <input type="date" class="form-control-lg register-text" name="date_of_birth" placeholder="Enter your Name" required>
+            <br>
+            <br>
+            <label>Username</label>
+            <input type="text" class="form-control-lg register-text" name="username" placeholder="Enter your Username" required>
+            <br>
+            <br>
+            <label><Name>Password</Name></label>
+            <input type="password" class="form-control-lg register-text" name="password" placeholder="Enter your Password" required>
+            <br>
+            <br>
+            <label>Confirm your Password</label>
+            <br>
+            <input type="password" class="form-control-lg register-text" name="confirm-password" placeholder="Confirm your Password" required>
+            <br>
+            <br>
+            <br>
+            <a href="welcome.php"><button type="submit" class="btn btn-secondary btn-lg btn-block" name="register">Register</button></a>
+
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

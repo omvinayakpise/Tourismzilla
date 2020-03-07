@@ -1,0 +1,47 @@
+
+h1 {
+   font-family: Ubuntu;
+   font-size: 3.5rem !important;
+   width: 80%;
+   padding-left: 20%;
+   line-height: 1.5 !important;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+h5 {
+  font-family: Montserrat;
+  font-weight: lighter;
+  color: #FFFFFF;
+  padding-top: 3%;
+}
+
+span {
+  color: #f6f078;
+}
+/* Left Side of the Page */
+
+.leftcol {
+  background-color: #c93838;
+  height: 754px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.login-img {
+  width: 40%;
+  padding-bottom: 3%;
+  border-radius: 8%;
+
+}
+
+/* Right Side of the column which contains the form */
+
+.login-form {
+  font-family: Montserrat !important;
+  font-weight: bold;
+  /* width: 50%; */
+  font-size: 20px;
+  padding-top: 250px;
+  padding-left: 40%;
+}

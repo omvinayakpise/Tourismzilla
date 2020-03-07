@@ -1,0 +1,59 @@
+body {
+  background-color: #c93838 !important;
+}
+
+h3 {
+ font-size: 1.8rem;
+ font-weight: 500;
+ color: #FFF;
+ text-align: center;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  line-height: 2;
+}
+
+span {
+ color: #da9833;
+}
+
+/* Company Name */
+
+.heading {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #FFF;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  text-align: center !important;
+}
+
+
+/* Footer */
+
+#footer {
+  background-color: #c93838;
+  padding-left: 14%;
+  padding-right: 14%;
+  padding-top: 8%;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.home-btn {
+  margin-top: 5%;
+  margin-left: 43%;
+}
+
+.footer-text {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}

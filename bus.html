@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bus Booking</title>
+
+    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="stylesheet" href="css/bus.css">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Ubuntu:400,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <section id="title">
+      <img class="title-img-1" src="https://media.istockphoto.com/vectors/vector-doodle-sketch-of-travel-and-tourist-concept-on-white-vector-id1022059922" alt="title-img-1">
+      <img class="title-img-2" src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v604-mynt-42-traveldoodleicons_1.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-3.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=46e68d95e647ce3831cc74105948c945" alt="title-img-2">
+      <img class="title-img-3" src="https://i.pinimg.com/474x/c5/50/ca/c550ca5a90ffb88b84f2ad8cd609754a.jpg" alt="title-img-3">
+      <img class="title-img-4" src="https://s3-eu-west-1.amazonaws.com/wbm.thumbnail/all/277778_1280.jpg" alt="title-img-4">
+
+      <h1>Tourismzilla</h1>
+      <h3><em>Bus Booking</em></h3>
+
+      <div class="row">
+        <div class="col-lg-2 bus-info">
+          <label class="bus-text">From</label>
+          <form class="" action="bus-process.php" method="post">
+          <select class="form-control" name="from_loc">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+        </div>
+
+        <div class="col-lg-2 bus-info">
+          <label class="bus-text">To</label>
+          <select class="form-control" name="to_loc">
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+        </div>
+
+        <div class="col-lg-2 bus-info">
+          <label class="bus-text">Date</label>
+          <input class="form-control" type="date" name="date_of_journey" required >
+        </div>
+
+    <button type="submit" class="btn btn-primary btn-lg search-btn" id="search-btn1" name="search"> Search</button>
+
+    </form>
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Booking</title>
+
+    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="stylesheet" href="css/hotel.css">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Ubuntu:400,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <section id="title">
+      <img class="title-img-1" src="https://as1.ftcdn.net/jpg/01/41/03/34/500_F_141033440_YCU5fJp4onHtDH38SKehgvNEKpDrTrjr.jpg" alt="title-img-1">
+      <img class="title-img-2" src="https://t3.ftcdn.net/jpg/02/48/32/44/500_F_248324487_TnKk9fxBXy2VpfNDtljOWGnbooc4EsmX.jpg" alt="title-img-2">
+      <img class="title-img-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDdPLfPFC2Uj0mPmT2oid-N1mNGG3KXDrvuOW_8ImEgj05X-qH" alt="title-img-3">
+      <img class="title-img-4" src="https://i.pinimg.com/originals/8d/c9/fc/8dc9fce96950e118974c82d12977c159.jpg" alt="title-img-4">
+
+      <h1>Tourismzilla</h1>
+      <h3><em>Hotel Booking</em></h3>
+
+      <div class="row">
+        <div class="col-lg-2 hotel-info">
+          <label class="hotel-text">Destination</label>
+          <form class="" action="hotel-process.php" method="post">
+          <select class="form-control" name="destination">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+        </div>
+
+
+        <div class="col-lg-2 hotel-info">
+          <label class="hotel-text">Check In</label>
+          <input class="form-control" type="date" name="check_in" >
+        </div>
+
+        <div class="col-lg-2 hotel-info">
+          <label class="hotel-text">Check Out</label>
+          <input class="form-control" type="date" name="check_out" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-lg search-btn" id="search-btn1" name="search"> Search</button>
+      </form>
+      </div>
+
+
+    </section>
+
+  </body>
+</html>

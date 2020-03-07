@@ -1,0 +1,69 @@
+body {
+  background-color: #c93838 !important;
+}
+
+h1 {
+  color: #FFFFFF;
+  font-family: Ubuntu !important;
+  font-size: 4rem !important;
+  font-weight: 900 !important;
+  text-align: center;
+  padding-top: 4%;
+}
+
+h3 {
+  padding-top: 1.5%;
+  text-align: center;
+  color: #FFF;
+  font-size: 2rem !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.title-img-1 {
+  margin-top: 4%;
+  width: 15%;
+  margin-left: 8%;
+  transform: rotate(-15deg);
+}
+
+.title-img-2 {
+  margin-top: 4%;
+  width: 13%;
+  margin-left: 9%;
+  transform: rotate(18deg);
+}
+
+.title-img-3 {
+  margin-top: 4%;
+  width: 12%;
+  margin-left: 9%;
+  transform: rotate(-9deg);
+}
+
+.title-img-4 {
+  margin-top: 4%;
+  width: 15%;
+  margin-left: 9%;
+  transform: rotate(19deg);
+}
+
+/* Information about hotel */
+.hotel-info {
+  margin-left: 8%;
+  margin-top: 4%;
+}
+
+.hotel-text {
+  font-family: Merriweather;
+  font-size: 1.2rem;
+  color: #FFF;
+}
+
+#search-btn1 {
+  height: 50px;
+  margin-top: 92px;
+  margin-left: 140px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Train Booking</title>
+
+    <link rel="shortcut icon" href="images\favicon.ico">
+    <link rel="stylesheet" href="css/train.css">
+
+    <!-- Bootstrap Scripts -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Google Fonts Link -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Ubuntu:400,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <section id="title">
+      <img class="title-img-1" src="https://previews.123rf.com/images/ewanew/ewanew1710/ewanew171000075/88996924-i-love-traveling-banner-.jpg" alt="title-img-1">
+      <img class="title-img-2" src="https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v604-mynt-09-traveldoodleicons_1.jpg?auto=format&bg=F4F4F3&con=3&cs=srgb&dpr=1&fm=jpg&ixlib=php-1.1.0&mark=rawpixel-watermark.png&markalpha=90&markpad=13&markscale=10&markx=25&q=75&usm=15&vib=3&w=1200&s=db317fe3f5d6d1ad42d4d2325bcb24d8" alt="title-img-2">
+      <img class="title-img-3" src="https://media.istockphoto.com/vectors/hand-drawn-doodle-russia-travel-in-circle-vector-id970736684" alt="title-img-3">
+      <img class="title-img-4" src="https://image.freepik.com/free-vector/travel-word-doodle_24886-16.jpg" alt="title-img-4">
+
+      <h1>Tourismzilla</h1>
+      <h3><em>Train Booking</em></h3>
+
+      <div class="row">
+        <div class="col-lg-2 train-info">
+          <label class="train-text">From</label>
+          <form class="" action="train-process.php" method="post">
+          <select class="form-control" name="from_loc">
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+        </div>
+
+        <div class="col-lg-2 train-info">
+          <label class="train-text">To</label>
+          <select class="form-control" name="to_loc">
+            <option value="Delhi">Delhi</option>
+            <option value="Pune">Pune</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+          </select>
+        </div>
+
+        <div class="col-lg-2 train-info">
+          <label class="train-text">Date</label>
+          <input class="form-control" type="date" name="date_of_journey">
+        </div>
+
+      <button type="submit" class="btn btn-primary btn-lg search-btn" id="search-btn1" name="search">Search</button>
+      </div>
+      </form>
+    </section>
+
+  </body>
+</html>
