@@ -1,1 +1,1 @@
-# Tourismzilla - A Travel Website
+Tourismzilla - A Travel Website created using basic web technologies. It helps the users to go through different travel packages and select one of them as its next travel destination. He could also book Train, Flight and Bus tickets through this website also he could go through various hotels and also book them for his next stay.
