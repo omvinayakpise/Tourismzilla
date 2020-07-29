@@ -1,2 +1,1 @@
-# Tourismzilla
- 
+# Tourismzilla - A Travel Website
